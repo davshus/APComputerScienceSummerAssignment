@@ -4,9 +4,9 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 public class SpellChecker {
-  final static int RESULT_COUNT = 3;
+  final static int RESULT_COUNT = 10;
   public static void main(String[] args) throws Exception {
-    Scanner wordsSC = new Scanner(new File("bigwords.txt"));
+    Scanner wordsSC = new Scanner(new File("reallybigwords.txt"));
     ArrayList<String> wordsAL = new ArrayList<String>();
     while (wordsSC.hasNext()) {
       wordsAL.add(wordsSC.nextLine());
