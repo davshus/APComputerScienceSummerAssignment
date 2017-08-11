@@ -14,5 +14,7 @@ public class TPS4 {
     for (int n : nums) {
       System.out.println(n);
     }
+    // Exception
+    int err = nums[nums.length];
   }
 }
