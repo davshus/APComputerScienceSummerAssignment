@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class SpellChecker {
   final static int RESULT_COUNT = 3;
   public static void main(String[] args) throws Exception {
-    Scanner wordsSC = new Scanner(new File("words.txt"));
+    Scanner wordsSC = new Scanner(new File("bigwords.txt"));
     ArrayList<String> wordsAL = new ArrayList<String>();
     while (wordsSC.hasNext()) {
       wordsAL.add(wordsSC.nextLine());
