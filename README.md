@@ -12,6 +12,9 @@
 ### All
 `$ make all` OR `$ make`
 
+### Labs only
+`$ make labs`
+
 ### Projects only
 `$ make projects`
 
@@ -33,4 +36,7 @@
 `$ appletviewer index.html`
 
 ### Run anything else
-`$ java <projects or tps>.<classname>`
+`$ java <labs, projects or tps>.<classname>`
+
+## Removal of all compiled files
+`$ make clean`
