@@ -18,10 +18,16 @@
 ### TPS only
 `$ make tps`
 
+### Tic Tac Toe only
+`$ make tictactoe`
+
 ### Nim only
 `$ make nim`
 
 ## Run
+
+### Run TicTacToe
+`$ java projects.tictactoe.TicTacToe`
 
 ### Run Nim
 `$ appletviewer index.html`
