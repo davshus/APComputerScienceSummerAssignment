@@ -9,7 +9,9 @@ public class BigEZ {
       int currIterationCount = 0;
       double sum = 0;
       while (sum <= 1) {
-        sum += Math.random();
+        double rand = Math.random();
+        rand -= rand % 0.1;
+        sum += rand;
         currIterationCount++;
       }
       iterations[i] = currIterationCount;
