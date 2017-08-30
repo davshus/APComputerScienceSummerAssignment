@@ -14,7 +14,7 @@ tictactoe:
 
 nim:
 	javac projects/nim/*.java
-	jar cf Nim.jar projects/nim/*.java
+	jar cf Nim.jar projects/nim/*.class
 
 clean:
 	rm */*.class
