@@ -10,7 +10,7 @@ public class BigEZ {
       double sum = 0;
       while (sum <= 1) {
         double rand = Math.random();
-        rand -= rand % 0.1;
+        // rand -= rand % 0.1;
         sum += rand;
         currIterationCount++;
       }
